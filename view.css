@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Untitled_design1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header section {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    /* background: transparent; */
+    border-radius: 4px;
+}
+
+header .logo{
+    position: relative;
+    color:#000;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color: #000;
+    /* background: #fff; */
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 15px;
+}
+
+header .navigation a:hover {
+    background: #A35709;
+    color: #fff;
+    transition: .4s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: bisque;
+    border-top: 1px solid #e7e7e7;  
+    padding: 5px 0;               
+    text-align: center;            
+    font-size: 0.9em;     
+    border-radius: 4px;         
+}
+
+.footer-content p {
+    margin: 0;                    
+    padding: 5px 0;                
+}
